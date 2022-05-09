@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Places from '../components/Places'
 
 
 const Home: NextPage = () => {
@@ -19,8 +20,8 @@ const Home: NextPage = () => {
           objectFit='cover'
           priority={true}
           />
-        </div>
-        <p>hello world</p>
+      </div>
+      <Places/> 
     </div>
   )
 }
